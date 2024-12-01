@@ -1,0 +1,73 @@
+html {
+    background-color: lightslategray;
+}
+
+header {
+    font-family: cursive;
+}
+
+/* NAV STYLING */
+.nav-list {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; /* Allows for list to wrap to new line */
+    list-style-type: none;
+    padding: auto;
+    margin: auto;
+}
+
+.nav-bar {
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+.nav-item {
+    margin: auto;
+    padding: auto;
+
+}
+
+/* HEADER STYLES */
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 32px;
+    font-weight: bold;
+    /* margin:auto; NO AUTO -> bad spacing*/
+}
+
+.grid-container {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-rows: repeat(3, 1fr); /* 3 equal rows */
+    /* width: 200px; height  */
+    /* height: 200px; */
+    gap: 10px;
+    background-color: transparent; /* I dont want to deal with ugly coloring */
+  }
+
+  .grid-item {
+    width: 200px;
+    height: 200px;
+    /* background-color: black; */
+    /* justify-content: center; */
+    text-align: center;
+    padding:10px;
+    margin: auto; /* Center in the grid cell */
+    border: 1px black solid;
+    border-radius: 25px;
+  }
+
+  /* Position the dots like a 5-dice face */
+.grid-item:nth-child(1) { grid-column: 1; grid-row: 1; } /* Top-left */
+.grid-item:nth-child(2) { grid-column: 3; grid-row: 1; } /* Top-right */
+.grid-item:nth-child(3) { grid-column: 2; grid-row: 2; } /* Center */
+.grid-item:nth-child(4) { grid-column: 1; grid-row: 3; } /* Bottom-left */
+.grid-item:nth-child(5) { grid-column: 3; grid-row: 3; } /* Bottom-right */
+
+.creator_img {
+    height: 100px;
+    width: 100px;
+}
