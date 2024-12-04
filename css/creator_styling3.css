@@ -1,0 +1,16 @@
+html {
+    /* background-color: lightslategray; */
+    background-color: black;
+    background-image: url("../images/tier.jpg");
+    background-repeat: no-repeat;         /* Prevents the image from repeating */
+    background-size: cover;              /* Makes the image cover the entire page */
+}
+
+* {
+    color: red;
+}
+
+
+.nav-item a{
+    color: red;
+}

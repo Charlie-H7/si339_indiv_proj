@@ -1,0 +1,15 @@
+html {
+    /* background-color: lightslategray; */
+    background-color: black;
+    background-image: url("../images/took2much.jpg");
+    background-repeat: no-repeat;         /* Prevents the image from repeating */
+    background-size: cover;              /* Makes the image cover the entire page */
+}
+
+* {
+    color: black;
+}
+
+.nav-item a{
+    color: black;
+}
