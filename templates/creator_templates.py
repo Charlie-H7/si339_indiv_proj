@@ -22,13 +22,14 @@ youtube = build('youtube', 'v3', developerKey=api_key)
 def render_templates(head, foot, name, embed_url, desc, idx) :
     
     comment_data = ""
-    head_html = """<!DOCTYPE html>
+    head_html = f"""<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/reset.css">
-        <link rel="stylesheet" href="../css/creator_styling.css">"""
+        <link rel="stylesheet" href="../css/creator_styling.css">
+        <title>{name}</title>""" 
     
     if(idx != 0):
         head_html += f"\n<link rel=\"stylesheet\" href=\"../css/creator_styling{str(idx)}.css\">"

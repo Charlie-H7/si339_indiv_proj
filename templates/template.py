@@ -2,7 +2,6 @@
 
 
 head_html = """
-    <title>Document</title>
 </head>
 <body>
     <header>
