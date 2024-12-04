@@ -10,10 +10,10 @@ html {
 header {
     font-family: cursive;
 }
-
+/* 
 *{
      box-sizing: border-box;
-}
+} */
 
 /* NAV STYLING */
 .nav-list {
@@ -80,7 +80,7 @@ h1 {
 .comment-container{
     border: solid 1px black;
     background-color: rgba(0, 0, 0, 0.5);
-    
+
 }
 
 .comment-seg {
@@ -102,4 +102,10 @@ p {
 
 .username {
     text-decoration: underline;
+}
+
+/* Extra */
+
+a:focus {
+    border: solid red 3px;
 }

@@ -9,10 +9,10 @@ video_list = ["https://www.youtube.com/embed/SkiCHrDHv74?si=9sLLwNXBCKnQtzBU", "
 name_list = ["Colossal Is Crazy", "DougDoug", "Took2Much", "TierZoo", "RDCworld1"]
    
 desc_list = [
-"""Colossal Is Crazy, a 77 year old clown with a smoking addiction.  He makes videos for the purpose of criticizing other content creators through satirical and edgy commentary.""",
+"""Colossal Is Crazy, a 77 year old clown with a smoking addiction.  He makes videos for the purpose of criticizing other content creators through satirical and harsh commentary.""",
 """DougDoug, self proclaimed solver of problems no one has. He makes videos completing challanges involving his twitch chat, most often involving gaming challenges.""",
 """ Took2Much, a channel that covers stories about the cartel from our neighbors to the south. If your are interested in the cartel or like watching videos with dark/scary themes this channel is a nice addition.""",
-"""TierZoo a channel that puts a fun spin on eductational content ranking species of animals in tier lists often combining this with game references""",
+"""TierZoo a channel that puts a fun spin on eductational content ranking species of animals in tier lists often combining this with video game references.""",
 """RDCWorld1 is a YouTube channel known for their comedic sketches, with a focus on pop culture, using concepts such as anime, sports, and video games, among other ideas."""
 ]
 
